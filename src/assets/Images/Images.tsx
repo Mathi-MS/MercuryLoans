@@ -7,7 +7,7 @@ import partner4 from "./partner4.webp";
 import partner5 from "./partner5.webp";
 import partner6 from "./partner6.webp";
 import partner7 from "./partner7.webp";
-import about from "./about.jpeg";
+import about from "./aboutnew.jpeg";
 import banner from "./banner.png";
 export const images = {
   favicon: favicon,
