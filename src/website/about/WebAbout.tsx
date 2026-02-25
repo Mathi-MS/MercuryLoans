@@ -1,13 +1,20 @@
+import WebMap from "../contact/WebMap";
+import WebTestiMobile from "../home/WebTestiMobile";
+import WebTesti from "../home/WebTestimonal";
+import WebTestiTab from "../home/WebTestiTab";
 import WebCommonBanner from "../WebCommonBanner";
 import WebAboutHome from "./WebAboutHome";
-import WebValues from "./WebValues";
 
 const WebAbout = () => {
   return (
     <>
       <WebCommonBanner />
       <WebAboutHome />
-      <WebValues />
+      <WebTesti />
+      <WebTestiMobile />
+      <WebTestiTab />
+      {/* <WebValues /> */}
+      <WebMap />
     </>
   );
 };

@@ -1,5 +1,6 @@
 import { Box, Typography, Accordion, AccordionSummary, AccordionDetails } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import WebCommonBanner from "../WebCommonBanner";
 
 const faqData = [
   {
@@ -107,9 +108,11 @@ RBI's initiative has eliminated prepayment penalties for all banks and NBFCs off
 ];
 
 
-const WebFaq = () => {
+const BusinessLoan = () => {
   return (
-    <Box className="website-container" sx={{ py: 8,bgcolor:"var(--white)" }}>
+    <>
+        <WebCommonBanner />
+        <Box className="website-container" sx={{ py: 8,bgcolor:"var(--white)" }}>
       
       {/* Heading */}
       <Typography
@@ -118,7 +121,7 @@ const WebFaq = () => {
         textAlign="center"
         sx={{ mb: "30px !important",fontFamily:"Regular_M" }}
       >
-        Home Loan
+        Business Loan
       </Typography>
 
       {/* FAQ LIST */}
@@ -138,7 +141,8 @@ const WebFaq = () => {
       </Box>
 
     </Box>
+    </>
   );
 };
 
-export default WebFaq;
+export default BusinessLoan;

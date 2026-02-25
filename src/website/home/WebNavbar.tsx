@@ -113,7 +113,7 @@ const WebNavbar = () => {
                     >
                       <MenuItem
                         onClick={() => {
-                          navigate("/outsourcing");
+                          navigate("/mortgageloan");
                           setAnchorEl(null);
                         }}
                         sx={{fontFamily:"Medium_M"}}
@@ -123,7 +123,7 @@ const WebNavbar = () => {
 
                       <MenuItem
                         onClick={() => {
-                          navigate("/recruitment");
+                          navigate("/loanagainstproperty");
                           setAnchorEl(null);
                         }}
                         sx={{fontFamily:"Medium_M"}}
@@ -132,7 +132,7 @@ const WebNavbar = () => {
                       </MenuItem>
                       <MenuItem
                         onClick={() => {
-                          navigate("/recruitment");
+                          navigate("/homeloan");
                           setAnchorEl(null);
                         }}
                         sx={{fontFamily:"Medium_M"}}
@@ -141,7 +141,7 @@ const WebNavbar = () => {
                       </MenuItem>
                       <MenuItem
                         onClick={() => {
-                          navigate("/recruitment");
+                          navigate("/machineryloan");
                           setAnchorEl(null);
                         }}
                         sx={{fontFamily:"Medium_M"}}
@@ -150,7 +150,7 @@ const WebNavbar = () => {
                       </MenuItem>
                       <MenuItem
                         onClick={() => {
-                          navigate("/recruitment");
+                          navigate("/businessloan");
                           setAnchorEl(null);
                         }}
                         sx={{fontFamily:"Medium_M"}}
@@ -159,7 +159,7 @@ const WebNavbar = () => {
                       </MenuItem>
                       <MenuItem
                         onClick={() => {
-                          navigate("/recruitment");
+                          navigate("/personalloan");
                           setAnchorEl(null);
                         }}
                         sx={{fontFamily:"Medium_M"}}
@@ -259,7 +259,7 @@ const WebNavbar = () => {
                         <ListItem
                           sx={{ pl: 4, cursor: "pointer" }}
                           onClick={() => {
-                            navigate("/outsourcing");
+                            navigate("/mortgageloan");
                             setOpen(false);
                           }}
                         >
@@ -269,7 +269,7 @@ const WebNavbar = () => {
                         <ListItem
                           sx={{ pl: 4, cursor: "pointer" }}
                           onClick={() => {
-                            navigate("/recruitment");
+                            navigate("/loanagainstproperty");
                             setOpen(false);
                           }}
                         >
@@ -278,7 +278,7 @@ const WebNavbar = () => {
                         <ListItem
                           sx={{ pl: 4, cursor: "pointer" }}
                           onClick={() => {
-                            navigate("/recruitment");
+                            navigate("/homeloan");
                             setOpen(false);
                           }}
                         >
@@ -287,7 +287,7 @@ const WebNavbar = () => {
                         <ListItem
                           sx={{ pl: 4, cursor: "pointer" }}
                           onClick={() => {
-                            navigate("/recruitment");
+                            navigate("/machineryloan");
                             setOpen(false);
                           }}
                         >
@@ -296,7 +296,7 @@ const WebNavbar = () => {
                         <ListItem
                           sx={{ pl: 4, cursor: "pointer" }}
                           onClick={() => {
-                            navigate("/recruitment");
+                            navigate("/businessloan");
                             setOpen(false);
                           }}
                         >
@@ -305,7 +305,7 @@ const WebNavbar = () => {
                         <ListItem
                           sx={{ pl: 4, cursor: "pointer" }}
                           onClick={() => {
-                            navigate("/recruitment");
+                            navigate("/personalloan");
                             setOpen(false);
                           }}
                         >

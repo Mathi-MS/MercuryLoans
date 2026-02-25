@@ -7,6 +7,12 @@ import WebSub from "../website/plan/WebSub";
 import WebJob from "../website/job/WebJob";
 import WebOutsourcing from "../website/Clients/WebOutsourcing";
 import WebRecruitment from "../website/Clients/WebRecruitment";
+import HomeLoan from "../website/services/HomeLoan";
+import MachineryLoan from "../website/services/MachineryLoan";
+import BusinessLoan from "../website/services/BusinessLoan";
+import PersonalLoan from "../website/services/PersonalLoan";
+import MortgageLoan from "../website/services/MortgageLoan";
+import LoanAgainstProperty from "../website/services/LoanAgainstProperty";
 
 const routes = createHashRouter([
   {
@@ -17,18 +23,38 @@ const routes = createHashRouter([
         path: "/",
         element: <WebHome />,
       },
-      // {
-      //   path: "/about",
-      //   element: <WebAbout />,
-      // },
-      // {
-      //   path: "/contact",
-      //   element: <WebContact />,
-      // },
-      // {
-      //   path: "/job",
-      //   element: <WebJob />,
-      // },
+      {
+        path: "/about",
+        element: <WebAbout />,
+      },
+      {
+        path: "/contact",
+        element: <WebContact />,
+      },
+      {
+        path: "/mortgageloan",
+        element: <MortgageLoan />,
+      },
+      {
+        path: "/homeloan",
+        element: <HomeLoan />,
+      },
+      {
+        path: "/machineryloan",
+        element: <MachineryLoan />,
+      },
+      {
+        path: "/businessloan",
+        element: <BusinessLoan />,
+      },
+      {
+        path: "/personalloan",
+        element: <PersonalLoan />,
+      },
+      {
+        path: "/loanagainstproperty",
+        element: <LoanAgainstProperty />,
+      },
       // {
       //   path: "/plans",
       //   element: <WebSub />,

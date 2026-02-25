@@ -7,9 +7,12 @@ const pageTitles: Record<string, string> = {
   "/about": "About Us",
   "/contact": "Contact Us",
   "/services": "Our Services",
-  "/job": "Find a Job",
-  "/outsourcing": "Outsourcing",
-  "/recruitment": "Recruitment",
+  "/mortgageloan": "Mortgage Loan",
+  "/machineryloan": "Machinery Loan",
+  "/businessloan": "Business Loan",
+  "/homeloan": "Home Loan",
+  "/personalloan": "Personal Loan",
+  "/loanagainstproperty": "Loan Against Property",
 };
 
 const WebCommonBanner = () => {
@@ -24,7 +27,7 @@ const WebCommonBanner = () => {
         backgroundColor: "#f5f5f5",
         padding: "150px 0",
         textAlign: "center",
-        backgroundImage: `url(${images.aboutimage})`,
+        backgroundImage: `url(${images.banner})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "inherit",
